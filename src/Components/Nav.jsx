@@ -1,5 +1,6 @@
 import { useState } from "react"
 import PhoneNav from "./PhoneNav";
+import './Nav.css'
 
 const Nav = () => {
 
@@ -11,22 +12,26 @@ const Nav = () => {
   
 
   return (
-    <div id="nav" className="bg-slate-900 w-full h-20 fixed mt-0">
-      <PhoneNav/>
-    <div id="nav-name">
-       <h2 className="text-white text-3xl ml-5 mt-4 md:text-4xl absolute">
+    <div id="nav" className="">
+      
+    <div id="nav-name" className="flex flex-row pt-7">
+      <div className="flex flex-row">
+       <h2 className="text-black text-3xl ml-5 mt-4 md:text-4xl absolute">
           Youssef Hegazy
        </h2>
-    </div>
-      
-      <div id="nav-elements" className="sm:collapse md:visible text-white">
-        <ul className=" absolute collapse right-2 top-6 flex flex-row gap-3 text-l md:visible hover:cursor-pointer ">
-          <li>About</li>
+       <PhoneNav/>
+      <div className="!hidden md:!block">
+        <ul className=" absolute flex flex-row gap-4 right-1 mr-4 pt-6 text-xl hover:cursor-pointer ">
+        <li>About</li>
           <li>Skills</li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
       </div>
+      </div>
+    </div>
+      
+      
   </div>
   )
 }

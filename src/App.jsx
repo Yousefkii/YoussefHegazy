@@ -1,3 +1,4 @@
+import Landing from "./Components/Landing"
 import Nav from "./Components/Nav"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
      <Nav/>
+     <Landing/>
     </>
   )
 }
