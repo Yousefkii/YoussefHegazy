@@ -1,12 +1,21 @@
-import Landing from "./Components/Landing"
-import Nav from "./Components/Nav"
+import './index.css'
+import { LoadingScreen } from "./Components/LoadingScreen"
+import { useState } from 'react'
+import Navbar from './Components/Navbar'
+import MobileMenu from './Components/MobileMenu'
 
-function App() {
+const App = () => {
+    const [isLoaded,setIsLoaded] = useState(false);
+    const [menuOpen,setMenuOpen] = useState(false);
 
   return (
     <>
-     <Nav/>
-     <Landing/>
+    {!isLoaded && <LoadingScreen onComplete={()=> setIsLoaded(true)}/>}
+      <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'} bg-black text-gray-100`} >
+         
+         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+         <MobileMenu  menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      </div>
     </>
   )
 }
