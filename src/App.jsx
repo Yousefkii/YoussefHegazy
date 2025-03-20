@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Navbar from './Components/Navbar'
 import MobileMenu from './Components/MobileMenu'
 import Home from './Components/sections/Home'
+import About from './Components/sections/About'
 
 const App = () => {
     const [isLoaded,setIsLoaded] = useState(false);
@@ -17,6 +18,7 @@ const App = () => {
          <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
          <MobileMenu  menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
          <Home/>
+         <About/>
       </div>
     </>
   )
