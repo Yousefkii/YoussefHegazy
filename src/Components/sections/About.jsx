@@ -34,7 +34,7 @@ const About = () => {
 <h3 className='text-xl font-bold mb-6 items-start justify-center flex'>
     Education
 </h3>
-<ul className='items-end'>
+<ul className='items-end list-disc'>
     <li className='mb-6'>
         <strong>B.S. in Computer Science (Ongoing)</strong> - Kielce University of Technology (2024-Ongoing)
     </li>
@@ -47,6 +47,18 @@ const About = () => {
 <h3 className='text-xl font-bold mb-4 flex justify-center'>
     Work Experiance
 </h3>
+<div className='space-y-4 text-gray-300'>
+    <div>
+       <h4 className='font-semibold'>
+        Front-end developer at ARQQA Design (07-2023 - 09-2024)
+       </h4>
+       <p>
+        Creating resposinve user-friendly website.
+        Debugging and fixing bugs.
+        Fixing bugs
+       </p>
+    </div>
+</div>
 </div>
     </div>
 </div>
