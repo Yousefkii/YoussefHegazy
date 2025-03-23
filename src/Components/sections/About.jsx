@@ -14,8 +14,7 @@ const About = () => {
     </h2>
     <div className=' rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all '>
         <p className='text-gray-300 mb-6'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo recusandae dolores praesentium iusto quis. Dignissimos, quas. Fugiat modi voluptates, reprehenderit, nisi dolores nam ipsam error neque quia laborum itaque illum.
-        </p>
+        I am a passionate Junior Front-End Developer committed to continuous learning and self-improvement. My journey in technology began with two years of studying Computer Science in Egypt, where I gained valuable experience working on projects focused on C# development. Building on this foundation, I am currently pursuing the same major in Poland, further expanding my expertise with a strong emphasis on C and C++, alongside refining my front-end development skills        </p>
         <div className='items-center justify-center flex'>
             <div className='rounded-xl p-6 hover:translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4 justify-center flex'>
