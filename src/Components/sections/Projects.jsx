@@ -25,7 +25,7 @@ const Projects = () => {
         ))}
     </div>
     <div className='flex justify-between items-center'>
-        <a href='https://Yousefkii.github.io/brainwave' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
+        <a href='https://Yousefkii.github.io/BrainWave' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
           View project
         </a>
     </div>
