@@ -1,7 +1,6 @@
 import RevealOnScroll from "../RevealOnScroll"
 import emailjs from 'emailjs-com'
 import { Result } from "postcss";
-
 import React, { useState } from 'react'
 
 const Contact = () => {
@@ -10,11 +9,17 @@ const Contact = () => {
     name : "",
     email: "",
     message:"",
-   })
+   });
 
 
    const handleSubmit =(e)=>{
        e.preventDefault();
+
+       console.log(emailjs.sendForm(
+        import.meta.env.VITE_ServiceID,
+        import.meta.env.VITE_tempID,
+        e.target,
+        import.meta.env.VITE_PublicKEY))
 
        emailjs.sendForm(
         import.meta.env.VITE_ServiceID,
@@ -47,7 +52,26 @@ const Contact = () => {
 <button type="submit" className="w-[450px] bg-blue-500 text-white font-medium rounded py-3 px-6 transition relative overflow-hidden hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]" >
     Send Message
 </button>
+<span className="text-gray-500 block">
+                In case any problem accured here is my email :<span className="text-white ml-2">Youssefhegaze908@gmail.com</span> 
+            </span>
+            <div className="relative flex flex-row justify-between items-center">
+             <div className="text-gray-500">
+                <span>
+                    You can also find me on : 
+                </span>
+                <a href="https://github.com/Yousefkii"><i className="fa-brands fa-github text-blue-500 ml-4 text-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/youssef-hegazy-0a28741a3/">
+                <i className="fa-brands fa-linkedin ml-4 text-2xl text-blue-500"></i>
+                </a>
+                <a href="https://www.instagram.com/yosef_osama988/">
+                <i className="fa-brands fa-instagram ml-4 text-2xl text-blue-500"></i>
+                </a>
+             </div>
+            </div>
             </form>
+            
+            
         </div>
     </RevealOnScroll>
 
