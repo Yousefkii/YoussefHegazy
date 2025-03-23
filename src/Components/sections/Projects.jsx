@@ -6,7 +6,7 @@ const Projects = () => {
     window.open("https://yousefkii.github.io/BrainWave/")
   }
   function Future(){
-    window.open("http://localhost:5173/Future-shipping")
+    window.open("https://github.com/Yousefkii/Future-shipping")
   }
   return (
     <section id='projects' className='min-h-screen flex items-center justify-center py-20'>
