@@ -12,7 +12,7 @@ const Home = () => {
     </h1>
     <span className='justify-center flex'>
 <p className='text-gray-400 text-lg mb-8 max-w-xl max-auto'>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt adipisci qui veniam animi quia esse cupiditate, enim tempora explicabo sequi similique. Perferendis ducimus consequuntur vero repellat cupiditate quis inventore deleniti.
+   Passionate Junior Front-End Developer with hands-on React, JavaScript,Tailwind,AJAX, CSS, HTML, and Git. Familiar with TypeScript and continuously expanding my knowledge in modern web technologies. Currently pursuing a Computer Science degree, with strong leadership, problem-solving, and teamwork skills. Enthusiastic about building user-friendly, scalable web applications and eager to contribute to dynamic development teams
 </p></span>
 <div className='flex justify-center space-x-4'>
 <a href='#projects' className='bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]'>
