@@ -2,6 +2,9 @@ import React from 'react'
 import RevealOnScroll from '../RevealOnScroll'
 
 const Projects = () => {
+  function BrainWave(){
+    window.open("https://yousefkii.github.io/BrainWave/")
+  }
   return (
     <section id='projects' className='min-h-screen flex items-center justify-center py-20'>
       <RevealOnScroll>
@@ -25,9 +28,9 @@ const Projects = () => {
         ))}
     </div>
     <div className='flex justify-between items-center'>
-        <a href='https://yousefkii.github.io/BrainWave/' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
+        <button onClick={BrainWave} className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
           View project
-        </a>
+        </button>
     </div>
 </div>
 <div className='p-6 rounded-xl border border-white hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all'>
