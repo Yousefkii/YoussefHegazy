@@ -5,6 +5,9 @@ const Projects = () => {
   function BrainWave(){
     window.open("https://yousefkii.github.io/BrainWave/")
   }
+  function Future(){
+    window.open("http://localhost:5173/Future-shipping")
+  }
   return (
     <section id='projects' className='min-h-screen flex items-center justify-center py-20'>
       <RevealOnScroll>
@@ -48,9 +51,9 @@ const Projects = () => {
         ))}
     </div>
     <div className='flex justify-between items-center'>
-        <a href='http://localhost:5173/Future-shipping' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
+        <button onClick={Future} className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
           View project
-        </a>
+        </button>
     </div>
 </div>
  </div>
