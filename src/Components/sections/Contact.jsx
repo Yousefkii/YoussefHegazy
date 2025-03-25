@@ -39,17 +39,17 @@ const Contact = () => {
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
                 Get In Touch 
             </h2>
-            <form className="space-y-6" onSubmit={handleSubmit}>
-<div className="relative">
-<input type="text" id="name" value={formdata.name} name="name" required onChange={(e)=>setformdata({...formdata, name: e.target.value})} placeholder='Name...' className="w-[450px] bg-white/5 border border-white/10 rounded px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 " />
+            <form className="space-y-6 items-center justify-center" onSubmit={handleSubmit}>
+<div className="relative felx justify-center">
+<input type="text" id="name" value={formdata.name} name="name" required onChange={(e)=>setformdata({...formdata, name: e.target.value})} placeholder='Name...' className="sm:w-[300px] w-[450px] bg-white/5 border border-white/10 rounded px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 " />
 </div>
-<div className="relative">
-<input type="email" id="email" value={formdata.email} name="email" required onChange={(e)=>setformdata({...formdata, email: e.target.value})}placeholder='Example@gmail.com' className="w-[450px] bg-white/5 border border-white/10 rounded px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 " />
+<div className="relative felx justify-center">
+<input type="email" id="email" value={formdata.email} name="email" required onChange={(e)=>setformdata({...formdata, email: e.target.value})}placeholder='Example@gmail.com' className="sm:w-[300px] w-[450px] bg-white/5 border border-white/10 rounded px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 " />
 </div>
-<div className="relative">
-<textarea  id="message" value={formdata.message} name="message" required rows={5} onChange={(e)=>setformdata({...formdata, message: e.target.value})} placeholder='Your message' className="w-[450px] bg-white/5 border border-white/10 rounded px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 " />
+<div className="relative felx justify-center">
+<textarea  id="message" value={formdata.message} name="message" required rows={5} onChange={(e)=>setformdata({...formdata, message: e.target.value})} placeholder='Your message' className="sm:w-[300px] sm: w-[450px] bg-white/5 border border-white/10 rounded px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 " />
 </div>
-<button type="submit" className="w-[450px] bg-blue-500 text-white font-medium rounded py-3 px-6 transition relative overflow-hidden hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]" >
+<button type="submit" className=" flex justify-center sm:w-[300px] w-[450px] bg-blue-500 text-white font-medium rounded py-3 px-6 transition relative overflow-hidden hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]" >
     Send Message
 </button>
 <span className="text-gray-500 block">
