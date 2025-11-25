@@ -52,12 +52,14 @@ contribute technical skills and problem-solving abilities to dynamic teams.     
 <div className='space-y-4 text-gray-300'>
     <div>
        <h4 className='font-semibold'>
-        Front-end developer at ARQQA Design (07-2023 - 09-2024)
+        Front-end developer at Malay Satu Software (07-2025 - Present)
        </h4>
        <p>
-        Creating resposinve user-friendly website.
-        Debugging and fixing bugs.
-        Fixing bugs
+       • Developed and maintained React-based user interfaces with modern JavaScript (ES6+) 
+       • Ensured responsiveness across 5+ devices, reducing mobile bugs by 40% 
+       • Collaborated with designers to translate wireframes and mockups into functional web pages 
+       • Utilized Git for version control and collaborated with team members through GitHub 
+       • Implemented API fetching and AJAX for dynamic data retrieval and display
        </p>
     </div>
 </div>
