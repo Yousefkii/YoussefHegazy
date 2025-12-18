@@ -16,7 +16,8 @@ const About = () => {
         <p className='text-gray-300 mb-6'>
 Front-End Developer with proven experience building responsive React applications using modern 
 JavaScript, Tailwind CSS, and Git with knowledge of TypeScript and Next.js. Computer Science student eager to 
-contribute technical skills and problem-solving abilities to dynamic teams.         <div className='items-center justify-center flex'>
+contribute technical skills and problem-solving abilities to dynamic teams.   </p>
+      <div className='items-center justify-center flex'>
             <div className='rounded-xl p-6 hover:translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4 justify-center flex'>
                 Skills
